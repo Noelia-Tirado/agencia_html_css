@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Planifica tu viaje a Japón con Blossom Travel. Haz de tu viaje una experiencia única y personal gracias a nuestra ayuda">
+    <meta name="Author" content="Noelia Tirado">
+    <meta name="Keywords" content="viaje, japón, tokyo, anime, coches, osaka, kyoto, planificar, vuelos, hoteles">
+    <meta name="locality" content="cádiz, spain, europa"> 
+    <meta name="revisit-after" content="14 days">
+    <meta name="category" content="Spanish, Spain, Japan, Viajes y turismo, planificación"> 
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Blossom Travel</title>
+</head>
+<body>
+    <header class="header-mini">   
+        <nav class="nav-links">
+           <div class="katana-menu">
+                <input type="checkbox" id="check-menu" class="check-menu">
+                <ul class="web-links">
+                    <li><a href="#">¿Qué te interesa?</a>
+                        <ul class="dropdown">
+                            <li><a href="otakuplaces.html"> Turismo Otaku</a></li>
+                            <li><a href="carplaces.html"> Turismo Coches</a></li>
+                            <li><a href="foodplaces.html"> Turismo Gastronómico</a></li>
+                            <li><a href="festivals.html"> Festivales</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="productos.html">¿Qué necesitas?</a></li>
+                    <li><a href="contacto.html">¿Dónde nos encontramos?</a></li>
+                    <li> <a href="presupuesto.html"> ¿Cómo podemos ayudarte? </a></li>
+                </ul>
+
+                <label for="check-menu" class="label-check">
+                    <img src="../assets/imgs/katana-cultures-svgrepo-com.svg" alt="botón de menú con forma de katanas" class="menu-hamburguesa" width="40" height="40">
+                </label>
+            </div>
+            <img class="mini-logo" src="..//assets/imgs/logo.png" alt="logo flor de cerezo con el centro rojo" height="70" width="70">
+            <a href="../index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+     </header>
+    <main>
+        <div class="flecha-top"> <a href="#">
+            <img src="../assets/imgs/arrow-sm-up-svgrepo-com.svg" alt="flecha hacia arriba">
+        </a></div>
+           <div class="cuadro-budget">
+              <p> Los mensajes que nos envíes serán respondidos en un plazo máximo de 48h. <br>   
+              Si no fuese el caso, te invitamos a que contactes con nosotros a través de nuestro teléfono o en nuestra oficina.
+             </p>
+              <br>
+             <a href="contacto.html"> Contacto </a>
+         </div>
+     <section class="contenido-budget">
+            <h2> Contactanos</h2>
+            <p> Mándanos un mensaje con tus dudas y estaremos encantados de ayudarte.</p>
+            <!--Formulario básico donde se necesitan cumplimentar todas las casillas para que funcione-->
+            <form class="contact-form">
+
+           <label for="name"> Nombre</label>
+           <input type="text" id="name" name="name" placeholder="Indica tu nombre" required>
+                
+          <label for="email"> Correo electrónico </label>
+          <input type="email" id="email" name="email" placeholder="Indica tu correo electrónico" required>
+
+           <label for="mensaje"> Mensaje </label>
+          <textarea name="mensaje" id="mensaje" rows="10" placeholder="Indica tus dudas, ¡no seas tímido!" required></textarea>
+          
+        <div class="checkitem">
+            
+            <input type="checkbox" name="politica privacidad" id="politica" value="aceptar" required> <label for="politica"> He leído y acepto la Política de Privacidad de la empresa.</label>
+            <a href="#"> Aviso legal y  política de privacidad </a>
+        </div>
+          <input type="submit" value="Enviar">
+         </form>
+     </section>
+    </main>
+    <footer>
+        <a href="#"> Aviso legal y Política de privacidad</a>
+        <a href="https://www.instagram.com/blossomtravelsp/"><img src="../assets/imgs/instagram-1-svgrepo-com.svg" alt="logo de instagram"></a>
+        <div class="footer-direction">
+            <h4> Contacto </h4>
+        <p>+34 856 24 25 65 <br> blossomtravelspain@gmail.com</p>
+        </div>
+        <div class="footer-direction">
+            <h4> Dirección </h4>
+        <p>Avda. Guadalquivir - Cádiz <br> 11012</p>
+        </div>
+    </footer>
+</body>
+</html>
